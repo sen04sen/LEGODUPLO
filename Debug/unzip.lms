@@ -1,0 +1,5 @@
+vmthread  MAIN
+{
+	DATA32 Status
+	SYSTEM('unzip ../prjs/SD_Card/cpp4ev3.zip -d ../prjs/SD_Card',Status)
+}
