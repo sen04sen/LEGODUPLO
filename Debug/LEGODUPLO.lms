@@ -1,0 +1,5 @@
+vmthread  MAIN
+{
+	DATA32 Status
+	SYSTEM('/media/card/LEGODUPLO',Status)
+}
